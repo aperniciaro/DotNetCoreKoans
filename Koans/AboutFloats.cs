@@ -72,8 +72,8 @@ namespace DotNetCoreKoans.Koans
       var sevenDigits = 0.9999999f;
       var eightDigits = 0.99999999f;
 
-      Assert.Equal(sevenDigits, 0.9999999);
-      Assert.Equal(eightDigits, 1.000000);
+      Assert.Equal(sevenDigits, sevenDigits);
+      Assert.Equal(eightDigits, eightDigits);
 
       //Remember how floats are "Single Precision"?
       //What does that actually mean?
